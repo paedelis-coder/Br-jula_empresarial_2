@@ -1005,3 +1005,52 @@ input.Enter_text::placeholder {
 .margin_90 {
     margin: 90px 0px;
 }
+
+/* 🎯 Estilos para la sección Misión y Visión */
+.mision-vision {
+  background: #f8f9fa; /* Fondo claro */
+  padding: 60px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.mision-vision h2 {
+  font-size: 2rem;
+  color: #0077b6; /* Azul empresarial */
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.mision-vision p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.mision-vision h2::before {
+  content: "★ ";
+  color: #00b4d8; /* Detalle con otro tono azul */
+}
+
+.mision-vision p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .mision-vision {
+    padding: 40px 15px;
+  }
+
+  .mision-vision h2 {
+    font-size: 1.5rem;
+  }
+
+  .mision-vision p {
+    font-size: 1rem;
+  }
+}
